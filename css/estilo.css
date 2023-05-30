@@ -54,4 +54,385 @@ main section.banner h1 {
     padding: 100px;
 }
 
+main section.receitas-principais .container { 
+  min-height:600px;
+ width: 1200px; 
+ margin: 0 auto;
+}
 
+main section.receitas-principais h2 {
+    color: #FFA000;
+    text-align: center;
+    font-weight: bold;
+    font-size:  55px;;
+    text-transform: lowercase ;
+}
+
+.lista-receitas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.lista-receitas article {
+ border: 1px solid  orange;
+width: 345px;
+text-align: center;
+
+}
+
+.lista-receitas .thumb {
+    width:100%;
+    height: 280px;px;
+    background-color: orange;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lista-receitas article h3 {
+    font-size: 26px;
+}
+
+
+.lista-receitas article a {
+    background-color: #176902;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+section.banner-secundario {
+    background-image:url(../imagens/Image.ovo.png) ;
+background-size: cover;
+background-position: center;
+}
+
+section.banner-secundario.container {
+    min-height: 600px;
+    width: 1200px ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+section.banner-secundario .container h2 {
+    font: size 62px;
+    color: #fff;
+    text-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25) ;
+
+}
+
+section.banner-secundario .container p {
+color: #fff;
+font-size: 24px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+width: 450px ;
+
+}
+
+footer {
+    background-color: #FFC107 ;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+footer .container {
+    width: 1200px ;
+    margin:  0 auto;
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    padding: 10px 0 ;
+
+}
+
+footer p{
+    padding: 0 15px ;
+}
+
+main section.todas-receitas .container {
+min-height:600px;
+width: 1200px; 
+margin: 0 auto;
+padding: 50px;
+
+}
+
+main section.receitas-principais h2 {
+    color: #FFA000;
+    text-align: center;
+    font-weight: bold;
+    font-size:  55px;;
+    text-transform: lowercase ;
+}
+
+.lista-receitas {
+    display: flex; /* ativando flexbox */
+    justify-content: space-between; /* espaçamento igual ao redor dos elementos (horizontal) */
+    align-items: flex-start; /* todos os elementos alinhados ao topo */
+    flex-wrap: wrap; /* permite que aconteça a quebra de linha */
+}
+
+.lista-receitas article {
+    /* border: 1px solid orange; */ /* borda somente para teste */
+    width: 345px; /* largura do article */
+    text-align: center; /* centralizando tudo no article */
+    margin-bottom: 60px; /* espaçamento inferior */
+
+}
+
+/* receita */
+
+.container-receita-interna {
+     width: 1200px;
+     margin: 50px auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+    }
+    
+    
+    .container-receita-interna main {
+     width: 700px;
+    }
+    
+    
+    
+    .container-receita-interna main img {
+     width: 100%;
+    }
+    
+    
+    
+    small.tag {
+     display: inline-block;
+     border: 1px solid #176902;
+     border-radius: 47px;
+     /* bordas arredondadas */
+     color: #176902;
+     padding: 5px 10px;
+     margin: 10px 0;
+    }
+    
+    
+    
+    aside article.receita-relacionada {
+     background-color: #fff;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     margin: 40px 0;
+    }
+    
+    
+    aside article.receita-relacionada .thumb {
+     width: 100%;
+     height: 200px;
+     background-size: cover;
+     background-position: center;
+    }
+    
+    
+    aside article.receita-relacionada h3 {
+     padding: 10px;
+     margin: 0;
+     text-transform: lowercase;
+     text-align: center;
+    }
+
+   /* contato */
+   .banner-contato {
+     width: 100%;
+     height: 400px;
+    background-image: url(../imagens/banner-contato.png);
+     background-size: cover;
+     background-position: center;
+    }
+    
+    
+    .banner-contato .container,
+    section.contato .container {
+     width: 1000px;
+     margin: 0 auto;
+     padding: 50px 0;
+     display: flex;
+    }
+    
+    
+    .banner-contato .container h1 {
+     color: #fff;
+     font-size: 70px;
+    }
+    
+    
+    .banner-vertical {
+     width: 30%;
+     height: 700px;
+     background-image: url(../imagens/mao.png);
+     background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    }
+    
+    
+    .formulario {
+     border: 1px solid #FFA000;
+     border-radius: 20px;
+     margin: 0 30px;
+     padding: 30px;
+     width: 70%;
+    }
+    
+    
+    .formulario h2 {
+     color: #FFA000;
+    }
+    
+    
+    
+    .formulario form input {
+     width: 100%;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    padding: 10px;
+     margin: 5px 0;
+    }
+    
+    
+    
+    .formulario form textarea {
+     width: 100%;
+     border: 1px solid #FFA000;
+     border-radius: 7px;
+     padding: 10px;
+    margin: 5px 0;
+    height: 200px;
+    }
+    
+    
+    
+    .formulario form button {
+    font-size: 16px;
+     background-color: #FFA000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+     border: 1px solid #FFA000;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    }
+    
+    
+    .formulario form button:hover {
+     background-color: green;
+     border-color: green;
+     cursor: pointer;
+    }
+
+    /* ajuste de responsividade */
+
+      @media (max-width:1100px){
+
+    .container,
+    
+    .container-receita-interna {
+    
+     width: 900px !important; /*essa regra se torna mais importante que as outras*/
+    
+    max-width: 100% !important;
+    
+     } 
+    
+    
+    
+    
+     main section.banner .container{
+    
+     justify-content: flex-start;
+    
+     }
+    
+     .lista-receitas article {
+    
+     width: 250px;
+    
+    
+    
+    
+     }
+    
+    .container-receita-interna main{
+    
+    width: 500px;
+    
+     }
+    
+     .container-receita-interna main iframe{
+    
+     width: 100%;
+    
+     }
+    
+     .lista-receitas{
+    
+    flex-direction: column;
+    
+    align-content: center;
+    
+    }
+    
+    }
+    
+    @media (max-width:900px){
+    
+     .container,
+    
+     .container-receita-interna{
+    
+     width: 800px !important;
+    
+     padding: 0 20px;
+    
+     }
+    
+    .lista-receitas{
+    
+     flex-direction: column;
+    
+     align-content: center;
+    
+     }
+    
+     .lista-receitas article{
+    
+     padding: 10px;
+    
+     }
+    
+    }
+    
+    
+    
+    
+    @media (max-width:400px){
+    
+     footer{
+    
+     font-size: 10px;
+    
+     max-height: 100%; /*ultima atualização dia 30/05/2023:para telas de celulares pequeenas*/
+    
+    }
+    
+    
+    
+    }
+    
+    tem menu de contexto
